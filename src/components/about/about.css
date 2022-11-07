@@ -6,9 +6,10 @@
 }
 .image{
     display: flex;
-    height: 600px;
+    height: 70vh;
     width: auto;
     padding: 1rem;
+    float: left;
     /* object-fit: scale-down; */
     /* border: 2px black solid; */
 
@@ -38,6 +39,7 @@
     display: block;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 5rem;
+    float: right;
 }
 
 .aboutHead{
