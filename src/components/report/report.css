@@ -1,0 +1,42 @@
+.uploadImageContainer{
+    padding: 2rem;
+    border: 0.2rem solid black;
+    width: max-content;
+    margin-left:2rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+
+}
+
+.uploadimg{
+    width:100%;
+    height: auto;
+}
+
+.Data{
+    justify-content: space-between;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.reportgen{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+}
+.result{
+    padding: 2rem;
+    border: 0.2rem solid black;
+    width: 50%;
+    height: max-content;
+    margin-left:2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+}
+
+img{
+    margin-top: 0.5rem;
+}
