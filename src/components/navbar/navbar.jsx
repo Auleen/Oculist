@@ -14,7 +14,8 @@ function Navbar() {
             <li><Link to="/database">Database</Link></li>
         </ul>
         </nav>
-        <button  onclick="location.href='https://github.com/Auleen/'">Star ✨</button>
+        <a target="_blank" href="https://github.com/Auleen/Oculist"><button>Star ✨</button></a>
+        
 
 
         </div>
