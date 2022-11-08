@@ -30,9 +30,9 @@ function Search() {
       <Navbar />
       <div className="reportgen">
       <div className="uploadImageContainer">
-        <h3>
+        <h2>
           <strong>Upload Image Here 📸</strong>
-        </h3>
+        </h2>
         <form>
           <input type="file" name="Upload Image" onChange={onImageChange} />
           <button  type="button" onClick={generateNumber}>Search</button>
