@@ -21,6 +21,11 @@ h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.diacls{
+    font-size: 15rem;
+    font-weight: bolder;
+    color: blueviolet;
+}
 .reportgen{
     display: flex;
     padding: 1rem;
