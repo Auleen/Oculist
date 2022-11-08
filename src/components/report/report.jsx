@@ -20,6 +20,11 @@ function Search() {
       fullDesc: null,
 
   };
+
+  const hideImg =()=> {
+    document.getElementById("uploadimg")
+                      .style.display = "none";
+   }
   return (
     <>
       <Navbar />
@@ -32,7 +37,7 @@ function Search() {
           <input type="file" name="Upload Image" onChange={onImageChange} />
           <button  type="button" onClick={generateNumber}>Search</button>
         </form>
-        <img src={img} alt="Input" className='uploadimg'/>
+        <img src={img} className='uploadimg' onError={hideImg}/>
       </div>
 
 
