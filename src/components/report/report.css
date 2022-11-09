@@ -1,10 +1,12 @@
 .uploadImageContainer{
     padding: 2rem;
     border: 0.2rem solid black;
-    width: max-content;
+    width: 50%;
     margin-left:2rem;
     margin-top: 2rem;
     border-radius: 0.5rem;
+    max-height: 70%;
+    max-width: 50%;
 
 }
 

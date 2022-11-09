@@ -3,11 +3,13 @@ import "./report.css";
 import Navbar from "../navbar/navbar";
 function Search() {
   const [img, setImg] = useState();
+  const [resImg,setRI] = useState();
   const [cls,setCls] = useState();
 
   const generateNumber = (min, max) => {
     const num=(Math.floor(Math.random() * (7)));
-    setCls(num)
+    setCls(num);
+    setRI(img);
   };
 
   const onImageChange = (e) => {
@@ -31,7 +33,7 @@ function Search() {
       <div className="reportgen">
       <div className="uploadImageContainer">
         <h2>
-          <strong>Upload Image Here 📸</strong>
+          <strong>Enter Details Here 📸</strong>
         </h2>
         <form>
           <input type="file" name="Upload Image" onChange={onImageChange} />
@@ -42,11 +44,11 @@ function Search() {
 
 
         <div className="result">
-          <h3>Report Details 📜</h3>
+          <h2>Report Details 📜</h2>
           <div className="diacls">
             {cls}
-
           </div>
+          <img src={resImg} className='uploadimg' onError={hideImg}/>
         </div>
 
       </div>
